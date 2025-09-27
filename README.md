@@ -6,11 +6,12 @@
   <h1>Ilaria RVC 💖</h1>
 </p>
 
+
 🎉 Welcome to Ilaria RVC! 🎉  
 
-Installation Guide (Windows)
+## 📦 Installation Guide (Windows) 📦
 
-##  Need python 3.10  only  of you have any version install it first 
+###  Need python 3.10  only  of you have any version install it first 
 
   
 1.    
@@ -47,25 +48,26 @@ Installation Guide (Windows)
     and try  127.0.0.1:7860  on browser ....
 
 
+### 🌟TIP🌟
+
+####  🛠️Configh Batch to start 🛠️
+
+1. open notepad
+
+2. add  code and save to   name  start.bat 
+  ```
+  @echo off
+  cd /d "C:\Users\OTARO\Desktop\Ilaria_RVC"
+  call .\rvc_env\Scripts\activate
+  python app_ui.py
+  deactivate
+  exit
+  ```
+3. Double Click from bat  start.bat  it EZ...
+  
+
 ## 📦 GG 📦
 
-
-  
-  
-This project leverages various libraries and modules to create a Graphical User Interface (GUI) for voice conversion.  
-It's primarily designed for use with HuggingFace Spaces. 🤗   
-
-Ilaria RVC is part of the Ilaria AI Suite wich includes various easy and powerful tools. 💖
-
-## 📦 Installation 📦
-
-To use this project, clone the original Space on Hugging Face.  
-Make sure you restart it time to time to keep up with the new updates.
-
-## 🖥️ Usage 🖥️
-
-Once the dependencies are installed automatically, Hugging Face will use app.py to start the user interface.  
-From there, you can utilize the various features of the project.
 
 ## 🌟 Features 🌟
 
