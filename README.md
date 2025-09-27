@@ -7,6 +7,50 @@
 </p>
 
 🎉 Welcome to Ilaria RVC! 🎉  
+
+Installation Guide (Windows)
+
+##  Need python 3.10  only  of you have any version install it first 
+
+  
+1.    
+   ```
+   git clone https://github.com/tontheonelove/AI_Ilaria-RVC
+   ```
+
+2. ```
+   cd path\to\Ilaria_RVC
+   ```
+
+3. 
+   ```
+    py -3.10 -m venv rvc_env
+   ```
+4.
+   ```
+   .\rvc_env\Scripts\activate
+   ```
+5.
+   ```
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+6. (if you use nvidia gpu run it !!) (If CPU only Skip it!!)
+    ```
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    ```
+7.
+    ```
+    python app.py
+    ```
+    and try  127.0.0.1:7860  on browser ....
+
+
+## 📦 GG 📦
+
+
+  
   
 This project leverages various libraries and modules to create a Graphical User Interface (GUI) for voice conversion.  
 It's primarily designed for use with HuggingFace Spaces. 🤗   
