@@ -57,7 +57,7 @@
 2. add  code and save to   name  start.bat 
   ```
   @echo off
-  cd /d "C:\Users\OTARO\Desktop\Ilaria_RVC"
+  cd /d "C:\Users\Ilaria_RVC"  (your path)
   call .\rvc_env\Scripts\activate
   python app_ui.py
   deactivate
